@@ -1,0 +1,33 @@
+.layout[data-theme='Lumière'] {
+	--header-bg-color: #74d5ff;
+	--header-text-color: white;
+	--page-bg-color: #fff;
+	--Catego-bg-color: #fff;
+	--Form-bg-color: #fff;
+	--coleur-main: #fff;
+	--Form-border-color: rgb(16, 16, 16);
+	--Fooetr-bg-color: rgb(15, 15, 15);
+	--page-text-color: #fff;
+	--page-text-content-color: rgb(93, 93, 93);
+	--coeur: black;
+	--textPopup: black;
+	--color-box: #fff;
+	--lien: rgb(239, 239, 239);
+}
+
+.layout[data-theme='Sombre'] {
+	--header-bg-color: #305c6f;
+	--header-text-color: #fff;
+	--page-bg-color: rgb(0, 0, 0);
+	--coeur: rgb(255, 255, 255);
+	--textPopup: rgb(204, 204, 204);
+	--Form-bg-color: rgb(16, 16, 16);
+	--coleur-main: black;
+	--Form-border-color: #fff;
+	--Catego-bg-color: rgb(15, 15, 15);
+	--page-text-color: rgb(176, 176, 176);
+	--Fooetr-bg-color: black;
+	--page-text-content-color: #e2e2e2;
+	--color-box: rgb(112, 111, 111);
+	--lien: rgb(239, 239, 239);
+}

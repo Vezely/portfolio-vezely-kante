@@ -1,0 +1,63 @@
+.container {
+	background-color: rgb(31, 31, 31);
+	/* background-image: url(/images/etoile.gif); */
+	padding: 40px 30px;
+	display: flex;
+	justify-content: center;
+}
+.etapeContainer h2 {
+	width: 100%;
+	font-size: 2.2em;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+}
+.etapeContainer {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.tiret {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.etape p {
+	margin: 5px 0;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+}
+.etape {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.tiret .rond {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border: solid 2px white;
+	border-radius: 50%;
+}
+
+.tiret .rond div {
+	color: white;
+}
+
+.tiret span {
+	width: 2px;
+	height: 100%;
+	background-color: white;
+}
+.descriptionLangage h4 {
+	margin: 5px 0;
+	color: white;
+}

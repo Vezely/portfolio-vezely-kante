@@ -1,0 +1,102 @@
+.box {
+	width: 300px;
+	height: 250px;
+	transition: all 0.8s;
+	margin: 8px;
+	min-width: 210px;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	box-shadow: var(--page-text-content-color) 1px 1px 5px 0px;
+	background-color: var(--Form-bg-color);
+	border-radius: 5px;
+}
+.like p {
+	margin: 0;
+}
+.box .like {
+	position: absolute;
+	bottom: 8px;
+	color: var(--page-text-content-color);
+	width: 95%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.like svg {
+	width: 20px;
+	cursor: pointer;
+	fill: var(--coeur);
+}
+.box svg:active {
+	transform: scale(0.9);
+	transition: all 0.3s;
+}
+.box svg:hover {
+	fill: red;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	transition: all 0.4s;
+	padding-bottom: 20px;
+	background-image: url('../public/images/projet.gif');
+	background-size: cover;
+	object-fit: contain;
+}
+.imgCont {
+	width: 100%;
+}
+.imgBox {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.imgCont:hover > .imgBox {
+	transform: scale(1.035);
+}
+.annee {
+	position: absolute;
+	color: var(--page-text-content-color);
+	top: 7px;
+	right: 5px;
+	font-family: 'Bungee Outline', cursive;
+	font-size: 1rem;
+}
+@media (max-width: 315px) {
+	.box {
+		max-width: 250px;
+		max-height: 200px;
+		transition: all 0.4s;
+	}
+	.imgBox {
+		width: 95%;
+		cursor: pointer;
+		object-fit: contain;
+		transition: all 0.4s;
+		height: 170px;
+	}
+	.box .like {
+		bottom: -17px;
+		transition: all 0.4s;
+	}
+	.box .like p {
+		transform: scale(0.8);
+		transition: all 0.4s;
+	}
+	.box .like svg {
+		width: 15px;
+		transition: all 0.4s;
+	}
+	.box .like {
+		bottom: 10px;
+	}
+}

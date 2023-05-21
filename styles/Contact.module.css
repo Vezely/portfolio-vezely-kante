@@ -1,0 +1,201 @@
+.contenant {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+	padding: 40px;
+	width: 100%;
+	transition: all 0.5s;
+	color: var(--page-text-color);
+}
+.retrouverMoiH3 {
+	font-size: 2rem;
+}
+
+.contact {
+	max-width: 300px;
+}
+.ContactImg {
+	width: 30px;
+	height: 30px;
+}
+.ContactDiv {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-top: 20px;
+}
+.ContactDiv svg {
+	fill: var(--page-text-color);
+}
+.ContactDiv:hover > svg,
+.ContactDiv:hover > .link {
+	fill: red;
+	color: red;
+}
+.link {
+	text-decoration: none;
+	color: var(--page-text-color);
+}
+.profileContenaire {
+	max-width: 300px;
+}
+.profile {
+	max-width: 100%;
+	border-radius: 50%;
+	object-fit: contain;
+	height: auto;
+	transition: all 0.5s;
+}
+
+.form {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	background-color: var(--Form-bg-color);
+	color: black;
+	/* margin: 20px; */
+	transition: all 0.5s;
+	color: var(--page-text-content-color);
+	border: 1px solid var(--Form-border-color);
+	border-radius: 5px;
+}
+.taille {
+	height: 50px;
+
+	border-radius: 8px;
+	padding: 10px;
+	background-color: rgb(247, 252, 255);
+	outline: none;
+}
+.email,
+.text {
+	margin-top: 30px;
+}
+
+.prenomNom,
+.email,
+.text {
+	border: 1px solid var(--Form-border-color);
+	background: none;
+	color: var(--coeur);
+}
+.text {
+	border-radius: 5px;
+	height: 75px;
+	padding: 8px;
+	outline: none;
+}
+.envoyer {
+	background-color: green;
+	display: flex;
+	border-radius: 15px;
+	color: whitesmoke;
+	cursor: pointer;
+	justify-content: center;
+	gap: 5px;
+	align-items: center;
+	padding: 10px;
+	margin: 20px 0;
+	border: solid green 1px;
+	transition: all 0.1s;
+}
+.envoyer svg {
+	fill: white;
+}
+.envoyer:hover {
+	border: solid green 1px;
+	transition: all 0.1s;
+	color: green;
+	background: none;
+}
+.envoyer:hover > svg {
+	fill: green;
+}
+.send {
+	width: 30px;
+	height: 30px;
+}
+.errors {
+	color: #ff0000;
+	font-size: 0.8em;
+	margin-bottom: 0;
+}
+.label {
+	position: relative;
+}
+.label > p {
+	position: absolute;
+	top: 0;
+	left: 5px;
+}
+/* 2 */
+.button {
+	font-family: inherit;
+	font-size: 20px;
+	background: none;
+	color: var(--Form-border-color);
+	padding: 0.7em 1em;
+	padding-left: 0.9em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px var(--Form-border-color);
+	margin: 20px 0;
+	border-radius: 16px;
+	overflow: hidden;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+.button:hover {
+	color: var(--Form-border-color);
+	border: solid 1px var(--Form-border-color);
+	/* transition: all 0.1s; */
+	background: none;
+}
+.button svg {
+	fill: var(--Form-border-color);
+}
+.button span {
+	display: block;
+	margin-left: 0.3em;
+	transition: all 0.5s ease-in-out;
+}
+
+.button svg {
+	display: block;
+	transform-origin: center center;
+	transition: transform 0.3s ease-in-out;
+}
+
+.button:hover .svg_wrapper {
+	animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.button:hover svg {
+	transform: translateX(1.2em) rotate(45deg) scale(1.1);
+	fill: var(--Form-border-color);
+}
+
+.button:hover span {
+	transform: translateX(6em);
+}
+
+.button:active {
+	transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+	from {
+		transform: translateY(0.1em);
+	}
+
+	to {
+		transform: translateY(-0.1em);
+	}
+}
