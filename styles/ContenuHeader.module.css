@@ -1,0 +1,205 @@
+.porfolio {
+	background-color: #eb0000;
+	border: #eb0000 1px solid;
+	border-radius: 8px;
+	width: 205px;
+	height: 45px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 4px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+.porfolio:hover > svg,
+.porfolio:hover > div {
+	fill: red;
+	color: red;
+}
+.porfolio svg {
+	fill: aliceblue;
+	width: 25px;
+}
+.porfolio:hover {
+	background: none;
+	border: red solid 1px;
+	transition: all 0.3s;
+}
+.entete {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.bon {
+	background-color: #eb0000;
+	border-radius: 10px;
+	padding: 4px;
+}
+.headerTitle {
+	font-size: 2.2rem;
+	font-weight: lighter;
+	margin-bottom: 20px;
+	color: white;
+}
+.presentation {
+	text-align: start;
+	background-clip: text;
+	color: transparent;
+	/* margin-left: 20px; */
+	background-image: linear-gradient(90deg, #02af39, #ffcfdf);
+}
+.nom {
+	font-size: 1.5rem;
+	font-weight: lighter;
+	padding-top: 10px;
+}
+.fonction {
+	font-size: 3rem;
+}
+.nomStyle_container {
+	margin-bottom: 15px;
+	margin-left: 80px;
+	position: relative;
+	font-size: 4rem;
+	color: white;
+}
+.nomStyle_container span {
+	letter-spacing: 2px;
+	margin-right: 10px;
+	font-weight: lighter;
+}
+.nomStyle {
+	font-size: 4rem;
+}
+.nomStyle_container > .nomStyle {
+	color: transparent;
+	position: relative;
+	overflow: hidden;
+}
+.nomStyle_container > .nomStyle::before {
+	font-size: 4rem;
+	color: #eb0000;
+	content: 'Kanté';
+	font-weight: bolder;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-right: 4px solid #17feff;
+	overflow: hidden;
+	animation: load91371 4s linear infinite;
+}
+
+.img {
+	width: 30px;
+	height: 30px;
+}
+.red {
+	color: red;
+}
+.contenu {
+	color: white;
+	width: 60%;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	margin-top: 15%;
+	margin-right: 50px;
+	position: sticky;
+	top: 80px;
+	z-index: 1;
+}
+
+.scanner span:hover::before {
+	color: red;
+}
+@keyframes load91371 {
+	0%,
+	10%,
+	100% {
+		width: 0;
+	}
+
+	10%,
+	20%,
+	30%,
+	40%,
+	50%,
+	60%,
+	70%,
+	80%,
+	90%,
+	100% {
+		border-right-color: transparent;
+	}
+
+	11%,
+	21%,
+	31%,
+	41%,
+	51%,
+	61%,
+	71%,
+	81%,
+	91% {
+		border-right-color: #17feff;
+	}
+
+	60%,
+	80% {
+		width: 100%;
+	}
+}
+
+@media (max-width: 900px) {
+	.contenu h1 {
+		font-size: 2.5rem;
+		transition: all 0.4s;
+	}
+	.contenu {
+		transition: all 0.4s;
+	}
+
+	.fonction {
+		font-size: 2rem;
+	}
+	.nomStyle_container span {
+		font-size: 3rem;
+	}
+	.nomStyle_container > .nomStyle::before {
+		font-size: 3rem;
+		text-align: end;
+	}
+}
+
+@media (max-width: 715px) {
+	.contenu {
+		width: 100%;
+	}
+}
+@media (max-width: 430px) {
+	.contenu h1 {
+		font-size: 1.5rem;
+	}
+	.fonction {
+		font-size: 1.2rem;
+	}
+	.nomStyle_container span {
+		font-size: 2rem;
+	}
+	.nomStyle_container {
+		margin-left: 40px;
+		transition: all 0.4s;
+	}
+	.nom {
+		padding-top: 0px;
+	}
+	.nomStyle_container > .nomStyle::before {
+		font-size: 2rem;
+
+		text-align: end;
+	}
+}

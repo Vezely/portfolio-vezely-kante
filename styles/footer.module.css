@@ -1,0 +1,123 @@
+.footer {
+	background-color: var(--Fooetr-bg-color);
+	color: white;
+	z-index: -1;
+	position: fixed;
+	bottom: -600px;
+	left: -867px;
+	right: -867px;
+	max-width: 3000px;
+	min-height: 500px;
+	border-top: #333 solid 1px;
+	border-radius: 50%;
+	padding-bottom: 600px;
+	padding-left: 895px;
+	padding-right: 895px;
+	padding-top: 75px;
+	margin: 0 auto;
+}
+
+.footerP {
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 0;
+}
+.reseauxS {
+	display: flex;
+	justify-content: space-around;
+}
+.footeContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: var(--lien);
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 100%;
+}
+.footeContainer svg {
+	fill: var(--page-text-color);
+}
+.footeContainer svg:hover {
+	fill: red;
+}
+.social {
+	width: 25px;
+	height: 25px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.ContactImg {
+	width: 20px;
+	height: 20px;
+}
+.ContactDiv {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-top: 20px;
+}
+.ContactDiv svg {
+	fill: var(--page-text-color);
+}
+.ContactDiv:hover > svg,
+.ContactDiv:hover > span {
+	fill: red;
+	color: red;
+}
+.liensUtiles {
+	display: flex;
+	flex-direction: column;
+}
+.linkUtil {
+	color: white;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+.profilPro {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+.logo {
+	width: 150px;
+	object-fit: contain;
+	height: 2.5em;
+	margin-top: 0.7rem;
+}
+.fleche {
+	position: fixed;
+	bottom: 50px;
+	right: 5px;
+	z-index: 2;
+}
+.fleche svg {
+	fill: var(--page-text-content-color);
+	width: 40px;
+}
+.fleche:hover svg {
+	fill: red;
+}
+.sr_only {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: var(--page-text-color);
+	font-size: 0.8em;
+	gap: 4px;
+}
+.sr_only:hover {
+	color: red;
+}
+.ContactDiv:hover > svg,
+.ContactDiv:hover > .link {
+	fill: red;
+	color: red;
+}
+.link {
+	text-decoration: none;
+	color: var(--page-text-color);
+}

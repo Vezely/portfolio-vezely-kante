@@ -1,0 +1,257 @@
+.titreComptenceH3 {
+	color: var(--page-text-content-color);
+	font-size: 2em;
+	text-align: center;
+}
+.titreComptenceH2 {
+	font-size: 2.2em;
+	margin-bottom: 0;
+	color: var(--page-text-content-color);
+}
+.competance {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	position: relative;
+}
+.categoriesL {
+	width: 100%;
+}
+.logiciels {
+	height: 40px;
+	width: 90%;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	gap: 10px;
+}
+.logoLogiciel {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.niveau {
+	width: 100%;
+	height: 80%;
+	border: 2px solid rgb(255, 175, 175);
+	cursor: pointer;
+	border-radius: 15px;
+	display: flex;
+	align-content: center;
+}
+.niveau1 {
+	width: 60%;
+	height: 100%;
+	background-color: rgb(28, 191, 241);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau1:hover::before {
+	content: '';
+}
+.niveau1:hover::after {
+	content: '60%';
+	transition: all 1s;
+}
+
+.niveau2 {
+	width: 50%;
+	height: 100%;
+	background-color: rgb(245, 101, 12);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.niveau2:hover::before {
+	content: '';
+}
+.niveau2:hover::after {
+	content: '50%';
+}
+.niveau3 {
+	width: 95%;
+	height: 100%;
+	background-color: rgb(213, 35, 15);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau3:hover::before {
+	content: '';
+}
+.niveau3:hover::after {
+	content: '95%';
+}
+.niveau4 {
+	width: 90%;
+	height: 100%;
+	background-color: rgb(46, 137, 249);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau4:hover::before {
+	content: '';
+}
+.niveau4:hover::after {
+	content: '90%';
+}
+.niveau5 {
+	width: 75%;
+	height: 100%;
+	background-color: rgb(238, 207, 8);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau5:hover::before {
+	content: '';
+}
+.niveau5:hover::after {
+	content: '75%';
+}
+.niveau6 {
+	width: 65%;
+	height: 100%;
+	background-color: rgb(144, 0, 255);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau6:hover::before {
+	content: '';
+}
+.niveau6:hover::after {
+	content: '65%';
+}
+.niveau7 {
+	width: 60%;
+	height: 100%;
+	background-color: rgb(251, 77, 50);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau7:hover::before {
+	content: '';
+}
+.niveau7:hover::after {
+	content: '60%';
+}
+.niveau8 {
+	width: 40%;
+	height: 100%;
+	background-color: rgb(247, 128, 99);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau8:hover::before {
+	content: '';
+}
+.niveau8:hover::after {
+	content: '40%';
+}
+.niveau9 {
+	width: 70%;
+	height: 100%;
+	background-color: rgb(50, 146, 255);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.niveau9:hover::before {
+	content: '';
+}
+.niveau9:hover::after {
+	content: '70%';
+}
+.niveau10 {
+	width: 65%;
+	height: 100%;
+	background-color: rgb(10, 10, 11);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.niveau10:hover::before {
+	content: '';
+}
+.niveau10:hover::after {
+	content: '65%';
+}
+
+.categories {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15%;
+}
+.logoF {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	animation: animation 2s linear infinite;
+}
+.logo1 {
+	animation-delay: 0s;
+}
+.logo2 {
+	animation-delay: 1s;
+}
+.logo3 {
+	animation-delay: 1.5s;
+}
+@keyframes animation {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@media (max-width: 410px) {
+	@keyframes animation {
+		0% {
+			box-shadow: 0 20px 50px rgba(249, 250, 249, 0.5);
+			transform: scale(0.5);
+		}
+		50% {
+			box-shadow: 0 20px 50px rgba(249, 250, 249, 0.5);
+			transform: scale(1);
+		}
+		100% {
+			box-shadow: 0 20px 50px rgba(249, 250, 249, 0.5);
+			transform: scale(0.5);
+		}
+	}
+}
+@media (max-width: 300px) {
+	.competance .titreComptenceH2,
+	.titreComptenceH3,
+	.titreComptenceH3,
+	.titreComptenceH3,
+	.titreComptenceH3 {
+		font-size: 1.5em;
+		transition: all 0.4s;
+	}
+}
