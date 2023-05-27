@@ -110,7 +110,7 @@ const Competances = () => {
 				</div>
 			</div>
 			<div className={styles.categoriesL}>
-				<h3 className={styles.titreComptenceH3}>Les librairies et Fremeworks dont je suis plus à l'aise 😍</h3>
+				<h3 className={styles.titreComptenceH3}>Les librairies et Frameworks dont je suis plus à l'aise 😍</h3>
 				<div className={styles.categories}>
 					<Image className={styles.logoF + ' ' + styles.logo1} width={900} height={900} src={logoNode} alt='logo node' />
 					<Image className={styles.logoF + ' ' + styles.logo2} width={512} height={512} src={logoReact} alt='logo node' />
