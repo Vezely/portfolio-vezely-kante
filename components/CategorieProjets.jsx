@@ -15,7 +15,7 @@ const CategorieProjets = () => {
 	return (
 		<div className={styles.contenu}>
 			<div className={styles.container}>
-				<h2 className={styles.porfolioH3}>Projets</h2>
+				<h2 className={styles.porfolioH3}>Mes Projets</h2>
 				<ul className={styles.categorie}>
 					<li className={styles.buttonContenant}>
 						<button

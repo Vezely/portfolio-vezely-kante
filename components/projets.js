@@ -105,6 +105,21 @@ const images = [
 		lien_site: null,
 		annee: '2023',
 	},
+	{
+		type: 'bureau',
+		src: '/images/projet/vEmploye.jpg',
+		alt: 'image',
+		titre: 'Application de gestion des disponibilités des employés',
+		description:
+			'Une application bureau permettant la planification automatique de l’horaire de plusieurs personnes afin de pouvoir mieux gérer la prise de rendez-vous. Ainsi, l’application permet de stocker les disponibilités de plusieurs utilisateurs. Ces disponibilités sont enregistrées de façon à être persistantes (elles ne se perdent pas à la fermeture de l’application). Le programme permet la sélection de plusieurs des utilisateurs ainsi qu’une durée pour la rencontre et de proposer des périodes possibles pour la rencontre en tenant compte des disponibilités de tous les utilisateurs sélectionnés.',
+		lien: 'https://github.com/NathanMusoko/-appointment',
+		technologies: ['C#', 'Xaml', 'SQL Server', 'WPF'],
+		nbLike: 1399,
+		width: 854,
+		height: 480,
+		lien_site: null,
+		annee: '2023',
+	},
 ];
 
 export default images;

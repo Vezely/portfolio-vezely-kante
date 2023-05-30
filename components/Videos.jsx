@@ -43,6 +43,14 @@ const Videos = () => {
 				"VerapPaste est un site web responsive et moderne que j'ai développé en utilisant des technologies éprouvées telles que Node.js, Express, et d'autres outils du stack MERN. Le site web de VerapPaste offre une variété de fonctionnalités, notamment :Présentation claire et détaillée du menu du restaurant, avec des images alléchantes et des descriptions appétissantes des plats. Système de réservation en ligne facile à utiliser, permettant aux clients de réserver une table en quelques clics.Possibilité de commander des plats à emporter ou en livraison, grâce à une interface simple et intuitive. Affichage des événements spéciaux et des offres promotionnelles, avec la possibilité de s'inscrire à une newsletter pour rester informé des nouveautés. Intégration des réseaux sociaux, permettant aux clients de partager leur expérience et de suivre les actualités du restaurant.",
 			href: '/images/projet/restoV.mov',
 		},
+		{
+			src: '/images/projet/vEmploye.mov',
+			alt: 'image',
+			titre: 'Application de gestion des disponibilités des employés',
+			description:
+				'Une application bureau permettant la planification automatique de l’horaire de plusieurs personnes afin de pouvoir mieux gérer la prise de rendez-vous. Ainsi, l’application permet de stocker les disponibilités de plusieurs utilisateurs. Ces disponibilités sont enregistrées de façon à être persistantes (elles ne se perdent pas à la fermeture de l’application). Le programme permet la sélection de plusieurs des utilisateurs ainsi qu’une durée pour la rencontre et de proposer des périodes possibles pour la rencontre en tenant compte des disponibilités de tous les utilisateurs sélectionnés.',
+			href: '/images/projet/vEmploye.mov',
+		},
 	];
 	return (
 		<div>
