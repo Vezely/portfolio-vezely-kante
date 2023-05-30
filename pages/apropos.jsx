@@ -3,7 +3,6 @@ import Appropos from '../components/Appropos';
 import Competances from '../components/Competances';
 import styles from '../styles/Main.module.css';
 import Head from 'next/head';
-import HeadProjets from '../components/HeadProjets';
 import Commentaire from '../components/Commentaire';
 import Services from '../components/Services';
 const apropos = () => {
@@ -19,7 +18,6 @@ const apropos = () => {
 			</Head>
 			<main className={styles.main}>
 				<div className={styles.container}>
-					<HeadProjets />
 					<Appropos />
 					<Services />
 					<Commentaire />

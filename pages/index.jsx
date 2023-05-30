@@ -1,9 +1,9 @@
 import React from 'react';
 import Accueil from '../components/Accueil';
 import Head from 'next/head';
-// import connectToDatabase from '../db';
+// import connectToDatabase from '../helpers/mongodb';
 
-const Index = ({ projets }) => {
+const Index = () => {
 	return (
 		<>
 			<Head>
@@ -14,15 +14,20 @@ const Index = ({ projets }) => {
 				<meta property='og:description' content="Page d'accueil contenant quelques projets et le contenu des autres pages du site" />
 				<meta property='og:image' content='http://localhost:3000/images/logoU.png' />
 			</Head>
-			<Accueil projets={projets} />
+			<Accueil />
 		</>
 	);
 };
 
 // export async function getServerSideProps() {
-// 	const db = await connectToDatabase();
-// 	const collection = db.collection('projets');
-// 	const projets = await collection.find({}).toArray();
+// 	let projets;
+// 	try {
+// 		const client = await connectToDatabase();
+// 		const db = client.db();
+// 		projets = db.collection('projets').find().toArray();
+// 	} catch (error) {
+// 		projets = [];
+// 	}
 
 // 	return {
 // 		props: {
