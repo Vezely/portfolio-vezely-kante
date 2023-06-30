@@ -44,7 +44,8 @@
 .niveau1 {
 	width: 60%;
 	height: 100%;
-	background-color: rgb(28, 191, 241);
+	/* background-color: rgb(28, 191, 241); */
+	background: linear-gradient(91.89deg, #ff0055 0%, #000066 100%);
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -62,6 +63,8 @@
 	width: 50%;
 	height: 100%;
 	background-color: rgb(245, 101, 12);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(245, 101, 12));
+
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -78,6 +81,7 @@
 	width: 95%;
 	height: 100%;
 	background-color: rgb(213, 35, 15);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(213, 35, 15));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -93,6 +97,7 @@
 	width: 90%;
 	height: 100%;
 	background-color: rgb(46, 137, 249);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(46, 137, 249));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -107,7 +112,7 @@
 .niveau5 {
 	width: 75%;
 	height: 100%;
-	background-color: rgb(238, 207, 8);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(238, 207, 8));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -122,7 +127,7 @@
 .niveau6 {
 	width: 65%;
 	height: 100%;
-	background-color: rgb(144, 0, 255);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(144, 0, 255));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -137,7 +142,7 @@
 .niveau7 {
 	width: 60%;
 	height: 100%;
-	background-color: rgb(251, 77, 50);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(251, 77, 50));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -152,7 +157,7 @@
 .niveau8 {
 	width: 40%;
 	height: 100%;
-	background-color: rgb(247, 128, 99);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(247, 128, 99));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -167,7 +172,7 @@
 .niveau9 {
 	width: 70%;
 	height: 100%;
-	background-color: rgb(50, 146, 255);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(50, 146, 255));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -182,7 +187,7 @@
 .niveau10 {
 	width: 65%;
 	height: 100%;
-	background-color: rgb(10, 10, 11);
+	background: linear-gradient(91.89deg, #ff0055 0%, rgb(10, 10, 11));
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;

@@ -64,7 +64,6 @@
 }
 .porfolioH3 {
 	font-size: 2rem;
-	border-bottom: 3px black solid;
 }
 @media (max-width: 545px) {
 	.buttonContenant {
