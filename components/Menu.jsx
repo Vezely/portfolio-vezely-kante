@@ -73,7 +73,7 @@ const Menu = () => {
 					</Link>
 				</li>
 				<li className={styles.liLien + ' ' + 'animate__animated animate__backInDown'} onClick={uncheckCheckbox}>
-					<a target='_blank' className={styles.link} href='/CV-VG.pdf'>
+					<a target='_blank' className={styles.link} href='/cv-vg-v2.pdf'>
 						Mon CV
 					</a>
 				</li>
