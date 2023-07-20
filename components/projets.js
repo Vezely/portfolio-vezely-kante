@@ -120,6 +120,21 @@ const images = [
 		lien_site: null,
 		annee: '2023',
 	},
+	{
+		type: 'web',
+		src: '/images/projet/newEgg.png',
+		alt: 'image',
+		titre: 'Newegg clône',
+		description:
+			"Le projet 'Clonage du site Newegg' est une reproduction fidèle du célèbre site de commerce électronique Newegg. En utilisant une combinaison de compétences en développement web, de programmation et de design, j'ai recréé l'interface utilisateur et les fonctionnalités principales de Newegg pour offrir une expérience utilisateur similaire.",
+		lien: 'https://github.com/Vezely/Newegg_Clone',
+		technologies: ['HTML5#', 'CSS3', 'Javascript', 'React', 'Nextjs', 'MySql'],
+		nbLike: 2399,
+		width: 2560,
+		height: 1380,
+		lien_site: null,
+		annee: '2023',
+	},
 ];
 
 export default images;

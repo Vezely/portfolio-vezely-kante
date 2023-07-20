@@ -51,6 +51,14 @@ const Videos = () => {
 				'Une application bureau permettant la planification automatique de l’horaire de plusieurs personnes afin de pouvoir mieux gérer la prise de rendez-vous. Ainsi, l’application permet de stocker les disponibilités de plusieurs utilisateurs. Ces disponibilités sont enregistrées de façon à être persistantes (elles ne se perdent pas à la fermeture de l’application). Le programme permet la sélection de plusieurs des utilisateurs ainsi qu’une durée pour la rencontre et de proposer des périodes possibles pour la rencontre en tenant compte des disponibilités de tous les utilisateurs sélectionnés.',
 			href: '/images/projet/vEmploye.mov',
 		},
+		{
+			src: '/images/projet/newegg.mov',
+			alt: 'video',
+			titre: 'Newegg clône',
+			description:
+				"Le projet 'Clonage du site Newegg' est une reproduction fidèle du célèbre site de commerce électronique Newegg. En utilisant une combinaison de compétences en développement web, de programmation et de design, j'ai recréé l'interface utilisateur et les fonctionnalités principales de Newegg pour offrir une expérience utilisateur similaire.",
+			href: '/images/projet/newegg.mov',
+		},
 	];
 	return (
 		<div>
