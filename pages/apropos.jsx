@@ -5,6 +5,7 @@ import styles from '../styles/Main.module.css';
 import Head from 'next/head';
 import Commentaire from '../components/Commentaire';
 import Services from '../components/Services';
+import Moi from '../components/Moi';
 const apropos = () => {
 	return (
 		<>
@@ -22,6 +23,7 @@ const apropos = () => {
 					<Services />
 					<Commentaire />
 					<Competances />
+					{/* <Moi /> */}
 				</div>
 			</main>
 		</>
