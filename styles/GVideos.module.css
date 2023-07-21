@@ -25,6 +25,10 @@
 	background-color: var(--Form-bg-color);
 	border-radius: 5px;
 }
+.box iframe {
+	width: 100%;
+	height: 90%;
+}
 .videoBox {
 	width: 95%;
 	/* z-index: 1; */
