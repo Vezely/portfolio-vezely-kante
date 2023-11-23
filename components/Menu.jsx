@@ -52,7 +52,7 @@ const Menu = () => {
 					<Link
 						className={`${styles.link} ${getActiveClass('/portfolio')} ${styles.acti}`}
 						onClick={() => setIsMenuVisible(false)}
-						href='/portfolio'>
+						href='https://www.vgcode.dev/'>
 						Portfolio
 					</Link>
 				</li>
